@@ -1,0 +1,23 @@
+header {
+    margin-top: 18px;
+}
+.container {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+}
+.decor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    font-size: 36px;
+}
+.searchbtn{
+    display: flex;
+    align-items: center;
+}
+button{
+    border-style: #D4C8BE;
+}
