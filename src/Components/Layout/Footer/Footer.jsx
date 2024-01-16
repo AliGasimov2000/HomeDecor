@@ -4,8 +4,8 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <>
-      <div className={styles.container}>
-        <div>
+      <div className="container">
+        <div className={styles.footer__decor}>
           <div>
             <h2>HomeDecor</h2>
             <p>&copy;2022 All Right Reserved. Developed by Webcoder Agency</p>

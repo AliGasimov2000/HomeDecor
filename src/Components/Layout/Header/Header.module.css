@@ -1,0 +1,115 @@
+header {
+    position: relative;
+}
+
+.decor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.decor h2 {
+    font-size: 36px;
+}
+
+.decor button{
+    font-size: 20px;
+}
+.searchbtn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.userbtn {
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+}
+
+button {
+    background-color: #EAE6DF;
+}
+
+.sidebar_icon {
+    display: none;
+}
+
+.nav__menu__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 35px;
+    gap: 70px;
+}
+ul a{
+    color: black;
+}
+
+/* =====================Search Input===================== */
+.input__none{
+    background-color: #EAE6DF;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    gap: 20px;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    background-color: #EAE6DF;
+    border: none;
+    height: 66px;
+    font-size: 20px;
+}
+input:focus{
+    outline: none;
+}
+.input__none button{
+    font-size: 20px;
+}
+.bg__color{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+/* ======================================================= */
+
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    .decor {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .userbtn,
+    .langbtn,
+    .nav__menu__items {
+        display: none;
+    }
+
+    .nav__menu__items.open {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 32px;
+        padding: 0 16px;
+    }
+
+    /* .navbar {
+        display: inline;
+    } */
+
+    .sidebar_icon {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+}

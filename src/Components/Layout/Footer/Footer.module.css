@@ -1,0 +1,22 @@
+.footer__decor{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+span{
+    width: 250px;
+}
+.contact{
+    display: flex;
+    gap: 40px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .footer__decor{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
