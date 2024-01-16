@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import { CiSearch, CiUser } from "react-icons/ci";
 import { MdOutlineLocalGroceryStore, MdMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { IoMdClose } from "react-icons/io";
+// import { IoMdClose } from "react-icons/io";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
