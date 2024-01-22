@@ -1,0 +1,36 @@
+h3{
+    font-family: "Didot";
+    font-size: 48px;
+}
+.about__page{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text__about{
+    margin-left: 66px;
+}
+a{
+    color: black;
+}
+p{
+    line-height: 24px;
+}
+.about__page button{
+    border: 1px solid #B8926A;
+    width: 330px;
+    height: 54px;
+    color: #B8926A;
+}
+.img_decont img{
+    width: 337px;
+    height: 1440px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+   .text__about{
+    margin: 0;
+   }
+}

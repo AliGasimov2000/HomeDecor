@@ -13,9 +13,10 @@ header {
     font-size: 36px;
 }
 
-.decor button{
+.decor button {
     font-size: 20px;
 }
+
 .searchbtn {
     display: flex;
     align-items: center;
@@ -37,18 +38,29 @@ button {
 }
 
 .nav__menu__items {
+    position: relative;
     display: flex;
     justify-content: center;
     margin-top: 27px;
     margin-bottom: 35px;
     gap: 70px;
 }
-ul a{
+
+ul a {
     color: black;
+    font-family: Raleway;
+}
+
+#langlist{
+    max-width: 288px;
+    height: 46px;
+    border: 1px solid #D4C8BE;
+    border-radius: 10px;
+    display: none;
 }
 
 /* =====================Search Input===================== */
-.input__none{
+.input__none {
     background-color: #EAE6DF;
     display: flex;
     justify-content: space-between;
@@ -56,25 +68,30 @@ ul a{
     gap: 20px;
     font-size: 20px;
 }
-input{
+
+input {
     width: 100%;
     background-color: #EAE6DF;
     border: none;
     height: 66px;
     font-size: 20px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-.input__none button{
+
+.input__none button {
     font-size: 20px;
 }
-.bg__color{
+
+.bg__color {
     height: 100vh;
     width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.308);
 }
+
 /* ======================================================= */
 
 @media screen and (max-width: 576px) {
@@ -100,7 +117,10 @@ input:focus{
         font-size: 32px;
         padding: 0 16px;
     }
-
+    #langlist{
+        display: flex;
+        justify-content: space-evenly;
+    }
     /* .navbar {
         display: inline;
     } */
@@ -112,4 +132,5 @@ input:focus{
     .open {
         display: block;
     }
+    
 }

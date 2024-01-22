@@ -1,8 +1,19 @@
+:root{
+    --btn-border-color:var( 1px solid #EAE6DF)
+}
 .container {
     max-width: 1380px;
     width: 100%;
     margin: 0 auto;
 }
+section{
+    padding: 123px 0;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+
 
 @media screen and (max-width: 576px) {
     .container{
